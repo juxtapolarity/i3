@@ -42,6 +42,7 @@ for_window [class="Code"] border pixel 1
 for_window [class="Matplotlib"] border pixel 1
 for_window [class="JDownloader"] border pixel 1
 for_window [class="Transmission-gtk"] border pixel 1
+for_window [class="zen"] border pixel 1
 
 # Start XDG autostart Tdesktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
@@ -233,7 +234,8 @@ smart_gaps inverse_outer
 
 # Start applications on specific workspaces
 # assign [class="Google-chrome"] 1
-assign [class="Firefox-esr"] 1
+# assign [class="Frefox-esr"] 1
+assign [class="zen"] 1
 assign [class="discord"] 2
 assign [class="obsidian"] 3
 assign [class="wezterm"] 4
